@@ -12,6 +12,7 @@ import Navbar from './globals/navbar';
 import Footer from './globals/footer';
 import "./bootstrap.min.css";
 import "./layout.css";
+import "./media.css";
 
 
 
