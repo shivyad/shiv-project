@@ -23,9 +23,9 @@ export default function Service() {
             <div className="service_bg">
                 <div className="container">
                     <div className="row">
-                        <div className="col-11 col-sm-11 mx-auto text-center service_all">
+                        <div className="col-11 col-sm-12 mx-auto text-center service_all">
                             <div className="row">
-                                <div className="col-sm-3 mx-auto text-center card_content">
+                                <div className="col-sm-4 col-md-3 mx-auto text-center card_content">
                                     <div className="card">
                                       <div className="service-icon">
                                         <FaBacon />
@@ -39,7 +39,7 @@ export default function Service() {
                                         <p>2</p>
                                     </div>
                                 </div>
-                                <div className="col-sm-3 mx-auto text-center card_content">
+                                <div className="col-sm-4 col-md-3 mx-auto text-center card_content">
                                     <div className="card">
                                       <div className="service-icon">
                                         <FaMap />
@@ -50,7 +50,7 @@ export default function Service() {
                                       </div>
                                     </div>
                                 </div>
-                                <div className="col-sm-3 mx-auto text-center card_content">
+                                <div className="col-sm-4 col-md-3 mx-auto text-center card_content">
                                     <div className="card">
                                       <div className="service-icon">
                                         <FaSlidersH />

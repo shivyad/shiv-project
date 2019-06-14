@@ -529,7 +529,13 @@ figure {
 .sign-in .signin-image {
   margin-left: 110px;
   margin-right: 20px;
-  margin-top: 10px; }
+  margin-top: 10px;
+
+ }
+ .signin-content, .signup-content {
+    width: 100%;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -586,7 +592,18 @@ figure {
     padding: 0 30px; }
 
   .sign-in .form-title {
-    text-align: center; } }
+    text-align: center; 
+
+    } 
+
+.signin-content, .signup-content {
+    width: 100%;
+}
+.sign-in .signin-image {
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+  }
 @media screen and (max-width: 400px) {
   .social-login {
     flex-direction: column;
@@ -597,6 +614,18 @@ figure {
 
   .social-label {
     margin-right: 0px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px;
+ } 
+
+.signin-content, .signup-content {
+    width: 100%;
+}
+.sign-in .signin-image {
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+  }
 
 /*# sourceMappingURL=style.css.map */

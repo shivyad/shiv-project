@@ -745,6 +745,11 @@ pre tt:after {
 .service .display-6{
   color: #fff;
 }
+
+.service .text-center{
+  z-index: 99;
+}
+
 .service .card_content{
   
   position: relative;

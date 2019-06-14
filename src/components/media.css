@@ -1,13 +1,68 @@
 @media screen and (min-width: 481px) and (max-width: 767px){
-   .signin-content, .signup-content {
+
+.navbar-brand img {
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.client img {
+    margin-bottom: 10%;
+}
+.service .card {
+    padding: 8% 4%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-bottom: 8%;
+}
+.service .card .card-body {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.service .card .service-icon {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-right: 0%;
+}
+#testimonial-slider {
+
+margin-bottom: 8%;
+
+}
+.default-background .img {
+    height: 545px;
+    right: -600px;
+    -webkit-transform: skewX(-18deg);
+    transform: skewX(-18deg);
+    width: unset;
+}
+.default-background .title.text-white {
+    color: #fff!important;
+    width: 50%;
+    font-size: 28px;
+    line-height: 36px;
+}
+.signin-content, .signup-content {
     width: 100%;
 }
 .sign-in .signin-image {
     margin-left: 25px;
     margin-right: 20px;
     margin-top: 10px;
+    }
+.nav-item.float-right.ml-sm-5 {
+    margin-left: 1rem!important;
 }
-
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255)!important;
+    font-weight: 900;
+    font-size: 14px;
+}
+.cus_login {
+    margin-top: 4px;
+    font-size: 14px!important;
+}
 }
 
 @media only screen and (max-width: 480px) {
